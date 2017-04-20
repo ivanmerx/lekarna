@@ -13,7 +13,7 @@
             <Label Content="Rozcestník" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="30px"/>
             <Button Content="Zákazníci" Margin="0,50,0,0" Width="250px" Height="50"/>
             <Button Content="Léky" Margin="0,30,0,0" Width="250px" Height="50"/>
-            <Button Content="Objednávky" Margin="0,30,0,0" Width="250px" Height="50" Click="Button_Click"/>
+            <Button Content="Objednávky" Margin="0,30,0,0" Width="250px" Height="50" Click="Button_Click"/> 
             <Label Content="Přihlášen jako: + odhlasit button" Margin="110,50,0,0" HorizontalAlignment="Left" Width="250px"/>
         </StackPanel>
     </Grid>
