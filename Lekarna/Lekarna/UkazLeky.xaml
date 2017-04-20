@@ -1,0 +1,35 @@
+﻿<Page x:Class="Lekarna.UkazLeky"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Lekarna"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="700"
+      Title="UkazLeky" Background="White">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="20,-30,20,-37"/>
+        <StackPanel>
+            <Label Content="Léky" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="30px"/>
+            <ListView x:Name="LekyInfo" HorizontalAlignment="Center" MinHeight="400" Margin="0,40,0,0" VerticalAlignment="Top" Width="620" FontSize="14" PreviewMouseDoubleClick="LekyInfo_kliknuti">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="100" Header="Název" DisplayMemberBinding="{Binding Jmeno}"/>
+                        <GridViewColumn Width="100" Header="Výrobce" DisplayMemberBinding="{Binding Prijmeni}"/>
+                        <GridViewColumn Width="120" Header="Na Předpis" DisplayMemberBinding="{Binding DatNar}"/>
+                        <GridViewColumn Width="100" Header="Cena" DisplayMemberBinding="{Binding Pohlavi}"/>
+                        <GridViewColumn Width="100" Header="Léčivé látky" DisplayMemberBinding="{Binding Pohlavi}"/>
+                        <GridViewColumn Width="100" Header="Na Skladě" DisplayMemberBinding="{Binding Pohlavi}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Button Content="Vytvořit Lék"/>
+            <Button Content="Zpět" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
