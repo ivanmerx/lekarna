@@ -11,7 +11,7 @@
         <Border BorderBrush="Black" BorderThickness="1" Margin="20,-30,20,-37"/>
         <StackPanel>
             <Label Content="Léky" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="30px"/>
-            <ListView x:Name="LekyInfo" HorizontalAlignment="Center" MinHeight="400" Margin="0,40,0,0" VerticalAlignment="Top" Width="620" FontSize="14" PreviewMouseDoubleClick="LekyInfo_kliknuti">
+            <ListView x:Name="LekyInfo" HorizontalAlignment="Center" MinHeight="400" Margin="0,40,0,0" VerticalAlignment="Top" Width="620" FontSize="14" SelectionChanged="LekyInfo_SelectionChanged">
                 <ListView.ItemContainerStyle>
                     <Style TargetType="ListViewItem">
                         <Setter Property="HorizontalContentAlignment" Value="Center" />
@@ -23,13 +23,13 @@
                         <GridViewColumn Width="100" Header="Výrobce" DisplayMemberBinding="{Binding Prijmeni}"/>
                         <GridViewColumn Width="120" Header="Na Předpis" DisplayMemberBinding="{Binding DatNar}"/>
                         <GridViewColumn Width="100" Header="Cena" DisplayMemberBinding="{Binding Pohlavi}"/>
-                        <GridViewColumn Width="100" Header="Léčivé látky" DisplayMemberBinding="{Binding Pohlavi}"/>
+                        <GridViewColumn Width="100" Header="Léčivá látka" DisplayMemberBinding="{Binding Pohlavi}"/>
                         <GridViewColumn Width="100" Header="Na Skladě" DisplayMemberBinding="{Binding Pohlavi}"/>
                     </GridView>
                 </ListView.View>
             </ListView>
             <Button Content="Vytvořit Lék"/>
-            <Button Content="Zpět" Click="Button_Click"/>
+            <Button Content="Zpět"/>
         </StackPanel>
     </Grid>
 </Page>

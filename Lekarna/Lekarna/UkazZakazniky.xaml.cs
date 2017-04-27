@@ -29,5 +29,10 @@ namespace Lekarna
         {
 
         }
+
+        private void ZakazniciInfo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

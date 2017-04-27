@@ -11,7 +11,7 @@
         <Border BorderBrush="Black" BorderThickness="1" Margin="20,-30,20,-37"/>
         <StackPanel>
             <Label Content="Zákazníci" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="30px"/>
-            <ListView x:Name="ZakazniciInfo" HorizontalAlignment="Center" MinHeight="400" Margin="0,40,0,0" VerticalAlignment="Top" Width="620" FontSize="14" PreviewMouseDoubleClick="ZakazniciInfo_kliknuti">
+            <ListView x:Name="ZakazniciInfo" HorizontalAlignment="Center" MinHeight="400" Margin="0,40,0,0" VerticalAlignment="Top" Width="620" FontSize="14" SelectionChanged="ZakazniciInfo_SelectionChanged">
                 <ListView.ItemContainerStyle>
                     <Style TargetType="ListViewItem">
                         <Setter Property="HorizontalContentAlignment" Value="Center" />
@@ -29,7 +29,7 @@
                 </ListView.View>
             </ListView>
             <Button Content="Vytvořit zákazníka"/>
-            <Button Content="Zpět" Click="Button_Click"/>
+            <Button Content="Zpět"/>
         </StackPanel>
         
     </Grid>

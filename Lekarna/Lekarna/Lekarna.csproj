@@ -54,15 +54,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="IOsoba_Detail_Info.cs" />
+    <Compile Include="IOsoba_Info.cs" />
+    <Compile Include="Lek.cs" />
+    <Compile Include="Objednavka.cs" />
+    <Compile Include="Pracovnik.cs" />
+    <Compile Include="Pracovnik_Info.cs" />
     <Compile Include="Rozcestnik.xaml.cs">
       <DependentUpon>Rozcestnik.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Sklad.cs" />
     <Compile Include="UkazLeky.xaml.cs">
       <DependentUpon>UkazLeky.xaml</DependentUpon>
     </Compile>
     <Compile Include="UkazZakazniky.xaml.cs">
       <DependentUpon>UkazZakazniky.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Zakaznik.cs" />
+    <Compile Include="Zakaznik_Info.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -106,6 +115,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Databaze.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

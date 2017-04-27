@@ -24,5 +24,10 @@ namespace Lekarna
         {
             InitializeComponent();
         }
+
+        private void LekyInfo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

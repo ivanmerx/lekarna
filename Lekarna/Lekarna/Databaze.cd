@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Stejný id u zakaznika a jenom jiny alergen - vazební tabulka">
+    <Position X="4.781" Y="4.75" Height="0.75" Width="3.7" />
+  </Comment>
+  <Class Name="Lekarna.Lek">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAACAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Lek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lekarna.Zakaznik">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Zakaznik.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lekarna.Sklad">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAAAgAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Sklad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lekarna.Pracovnik">
+    <Position X="3.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAARAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Pracovnik.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lekarna.Zakaznik_Info">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAgIAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Zakaznik_Info.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lekarna.Pracovnik_Info">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAEAICAAAA=</HashCode>
+      <FileName>Pracovnik_Info.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lekarna.Objednavka">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objednavka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Lekarna.IOsoba_Info">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IOsoba_Info.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lekarna.IOsoba_Detail_Info">
+    <Position X="6.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>IOsoba_Detail_Info.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
