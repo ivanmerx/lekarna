@@ -71,6 +71,7 @@
       <DependentUpon>UkazZakazniky.xaml</DependentUpon>
     </Compile>
     <Compile Include="Zakaznik.cs" />
+    <Compile Include="Zakaznik_Alergeny.cs" />
     <Compile Include="Zakaznik_Info.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

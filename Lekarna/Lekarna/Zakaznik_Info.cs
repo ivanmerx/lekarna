@@ -15,14 +15,6 @@ namespace Lekarna
             }
         }
 
-        public string Alergeny
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
         public string Bydliste { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public DateTime Dat_Nar { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
