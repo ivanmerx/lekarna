@@ -8,19 +8,29 @@ namespace Lekarna
 {
     class Zakaznik_Alergeny
     {
+        private int zakaznik_id;
+        private string alergen;
         public int Zakaznik_ID
         {
-            get => default(int);
+            get
+            {
+                return zakaznik_id;
+            }
             set
             {
+                zakaznik_id = value;
             }
         }
 
         public string Alergen
         {
-            get => default(int);
+            get
+            {
+                return alergen;
+            }
             set
             {
+                alergen = value;
             }
         }
     }

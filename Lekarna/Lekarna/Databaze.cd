@@ -50,14 +50,14 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Lekarna.Objednavka">
-    <Position X="11" Y="1.5" Width="1.5" />
+    <Position X="9.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAAAAAIAgAAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Objednavka.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Lekarna.Zakaznik_Alergeny">
-    <Position X="2.5" Y="5" Width="1.5" />
+    <Position X="2.5" Y="5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Zakaznik_Alergeny.cs</FileName>

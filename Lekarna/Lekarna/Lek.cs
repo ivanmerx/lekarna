@@ -8,36 +8,27 @@ namespace Lekarna
     public class Lek
     {
 
-        public string Nazev
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
         public int ID
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
+        }
+        public string Nazev
+        {
+            get;
+            set;
         }
 
         public string Leciva_latka
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string Popis
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
     }
 }
