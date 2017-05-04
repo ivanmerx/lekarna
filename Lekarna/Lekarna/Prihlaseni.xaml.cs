@@ -16,23 +16,18 @@ using System.Windows.Shapes;
 namespace Lekarna
 {
     /// <summary>
-    /// Interakční logika pro Rozcestnik.xaml
+    /// Interakční logika pro Prihlaseni.xaml
     /// </summary>
-    public partial class Rozcestnik : Page
+    public partial class Prihlaseni : Page
     {
-        public Rozcestnik()
+        public Prihlaseni()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            this.Content = new UkazZakazniky();
+            this.NavigationService.Navigate(new UkazZakazniky());
         }
     }
 }

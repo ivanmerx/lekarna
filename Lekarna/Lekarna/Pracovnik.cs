@@ -12,26 +12,20 @@ namespace Lekarna
 
         public int ID
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string Heslo
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string Prihlasovaci_Jmeno
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
     }
 }

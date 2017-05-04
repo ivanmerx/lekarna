@@ -9,34 +9,26 @@ namespace Lekarna
     {
         public int ID_Leku
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int Pocet
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int Cena
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int Vyrobce
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
     }
 }

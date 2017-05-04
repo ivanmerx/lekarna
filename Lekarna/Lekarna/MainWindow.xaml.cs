@@ -23,6 +23,8 @@ namespace Lekarna
         public MainWindow()
         {
             InitializeComponent();
+            frame.Navigate(new Prihlaseni());
+            frame.NavigationUIVisibility = System.Windows.Navigation.NavigationUIVisibility.Hidden;
         }
     }
 }

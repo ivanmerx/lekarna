@@ -12,13 +12,17 @@ namespace Lekarna
 
         public int ID
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public bool Clen
+        {
+            get;
+            set;
+        }
+
+        public int Rodne_Cislo
         {
             get => default(int);
             set

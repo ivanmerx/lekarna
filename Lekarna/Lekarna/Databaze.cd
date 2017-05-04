@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Comment CommentText="Stejný id u zakaznika a jenom jiny alergen - vazební tabulka">
-    <Position X="4.781" Y="4.75" Height="0.75" Width="3.7" />
+    <Position X="14.352" Y="6.235" Height="0.75" Width="3.7" />
   </Comment>
   <Class Name="Lekarna.Lek">
     <Position X="10.75" Y="2.75" Width="1.5" />
@@ -13,7 +13,7 @@
   <Class Name="Lekarna.Zakaznik">
     <Position X="1.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <HashCode>AAABAAAAAAAAgAAAAAAAABAAAAAAAAAACAAAAAAIAAA=</HashCode>
       <FileName>Zakaznik.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -59,8 +59,15 @@
   <Class Name="Lekarna.Zakaznik_Alergeny">
     <Position X="2.5" Y="5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIAgAAAAAAAAAAEAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Zakaznik_Alergeny.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lekarna.Objednavka_Kosik">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAIAgAAEAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Objednavka_Kosik.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="Lekarna.IOsoba_Info">

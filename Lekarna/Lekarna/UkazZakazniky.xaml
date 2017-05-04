@@ -11,6 +11,7 @@
         <Border BorderBrush="Black" BorderThickness="1" Margin="20,-30,20,-37"/>
         <StackPanel>
             <Label Content="Zákazníci" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="30px"/>
+            <TextBox Height="23" TextWrapping="Wrap" Text="TextBox" Width="500" Margin="100,0"/>
             <ListView x:Name="ZakazniciInfo" HorizontalAlignment="Center" MinHeight="400" Margin="0,40,0,0" VerticalAlignment="Top" Width="620" FontSize="14" SelectionChanged="ZakazniciInfo_SelectionChanged">
                 <ListView.ItemContainerStyle>
                     <Style TargetType="ListViewItem">
@@ -21,16 +22,17 @@
                     <GridView>
                         <GridViewColumn Width="100" Header="Jméno" DisplayMemberBinding="{Binding Jmeno}"/>
                         <GridViewColumn Width="100" Header="Příjmení" DisplayMemberBinding="{Binding Prijmeni}"/>
-                        <GridViewColumn Width="120" Header="Datum narození" DisplayMemberBinding="{Binding DatNar}"/>
-                        <GridViewColumn Width="100" Header="Členství datum" DisplayMemberBinding="{Binding Pohlavi}"/>
+                        <GridViewColumn Width="140" Header="Datum narození" DisplayMemberBinding="{Binding DatNar}"/>
+                        <GridViewColumn Width="120" Header="Rodné číslo" DisplayMemberBinding="{Binding DatNar}"/>
+                        <!--<GridViewColumn Width="100" Header="Členství datum" DisplayMemberBinding="{Binding Pohlavi}"/>
                         <GridViewColumn Width="100" Header="Bydliště" DisplayMemberBinding="{Binding Pohlavi}"/>
-                        <GridViewColumn Width="100" Header="Alergeny" DisplayMemberBinding="{Binding Pohlavi}"/>
+                        <GridViewColumn Width="100" Header="Alergeny" DisplayMemberBinding="{Binding Pohlavi}"/>-->
                     </GridView>
                 </ListView.View>
             </ListView>
             <Button Content="Vytvořit zákazníka"/>
             <Button Content="Zpět"/>
         </StackPanel>
-        
+
     </Grid>
 </Page>

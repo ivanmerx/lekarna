@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lekarna"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="700" Background="White">
+        Title="MainWindow" Height="700" Width="700"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
     <Grid>
-        <Border BorderBrush="Black" BorderThickness="1" Margin="110,-30,110,-37"/>
-        <StackPanel>
-            <Label Content="Lékarna" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="30px"/>
-            <Label Margin="0,30,0,0" Content="Přihlašovací jméno" HorizontalAlignment="Center"/>
-            <TextBox Width="200px"/>
-            <Label Margin="0,40,0,0" Content="Heslo" HorizontalAlignment="Center"/>
-            <TextBox Margin="0,0,0,30"  Width="200px"/>
-            <Button Width="100px" Height="20px" Content="Přihlásit"/>
-        </StackPanel>
-        <Button Content="Přidat prodavače" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,5,5" Width="100px" Height="20px"></Button>
+        <Frame x:Name="frame" HorizontalAlignment="Left" Height="620" VerticalAlignment="Top" Width="692" Margin="0,0,0,-55"/>
+
     </Grid>
 </Window>

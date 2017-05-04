@@ -9,10 +9,8 @@ namespace Lekarna
     {
         public int ID_Zakaznika
         {
-            get => default(int);
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string Bydliste { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
