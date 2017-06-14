@@ -90,6 +90,9 @@
     <Compile Include="Objednavka_Kosik.cs" />
     <Compile Include="Pracovnik.cs" />
     <Compile Include="Pracovnik_Info.cs" />
+    <Compile Include="PridatZakaznika.xaml.cs">
+      <DependentUpon>PridatZakaznika.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Prihlaseni.xaml.cs">
       <DependentUpon>Prihlaseni.xaml</DependentUpon>
     </Compile>
@@ -118,6 +121,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="PridatZakaznika.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Prihlaseni.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

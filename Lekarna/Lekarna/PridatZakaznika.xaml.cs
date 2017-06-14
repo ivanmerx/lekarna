@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Lekarna
 {
     /// <summary>
-    /// Interakční logika pro UkazZakazniky.xaml
+    /// Interakční logika pro PridatZakaznika.xaml
     /// </summary>
-    public partial class UkazZakazniky : Page
+    public partial class PridatZakaznika : Page
     {
-        public UkazZakazniky()
+        public PridatZakaznika()
         {
             InitializeComponent();
         }
@@ -28,16 +28,6 @@ namespace Lekarna
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-        }
-
-        private void ZakazniciInfo_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            this.NavigationService.Navigate(new PridatZakaznika());
         }
     }
 }
